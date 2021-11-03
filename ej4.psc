@@ -12,7 +12,7 @@ Algoritmo ejercicio4
 	
 	centimetro= medida*100
 	milimetro= medida*1000
-	pulgadas= medida*2.54
+	pulgadas= (medida*100)/2.54
 	
 	Escribir "Su equivalente en centimetros es: ",centimetro , "en milimetros: " ,milimetro "y en pulgadas: " ,pulgadas
 FinAlgoritmo
