@@ -1,0 +1,18 @@
+Algoritmo EjercicioExtra
+	//Crear un programa que solicite al usuario que ingrese el precio de un producto al inicio
+	//del año, y el precio del mismo producto al finalizar el año. El programa debe calcular cuál
+	//fue el porcentaje de aumento que tuvo ese producto en el año y mostrarlo por pantalla
+	
+	definir precioini, preciofin, aumento,porcentaje Como Real
+	
+	escribir "Ingrese el precio de un producto al inicio del año"
+	leer precioini
+	escribir "Ingrese el precio al final del año"
+	leer preciofin
+	
+	aumento=preciofin-precioini
+	porcentaje=(aumento*100) /precioini
+	
+	escribir porcentaje
+	
+FinAlgoritmo
