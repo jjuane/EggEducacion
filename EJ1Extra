@@ -1,0 +1,20 @@
+Algoritmo EJ1Extra
+	//Un  colegio  desea  saber  qué  porcentaje  de  niños  y  qué  porcentaje  de  niñas  hay  en  el
+	//curso  actual.  Diseñar  un  algoritmo  para  este  propósito.  Recuerda  que  para  calcular  el
+		//		porcentaje puedes hacer una regla de 3 simple. El programa debe solicitar al usuario que
+	//	ingrese la cantidad total de niños, y la cantidad total de niñas que hay en el curso.
+	
+	definir ninos, ninas Como Entero
+	definir porcninos, porcninas, cant Como Real
+	
+	escribir "Ingresa la cantidad de niños y niñas en el curso"
+	leer ninos, ninas
+	
+	cant=ninos+ninas
+	
+	porcninos = (ninos*100)/cant
+	porcninas = (ninas*100)/cant
+	Escribir "El porcentaje de niños es: " ,porcninos
+	Escribir "El porcentaje de niñas es: " ,porcninas
+	
+FinAlgoritmo
